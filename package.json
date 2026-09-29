@@ -1,0 +1,14 @@
+{
+  "name": "autoservice-pwa",
+  "version": "1.0.0",
+  "description": "PWA для записи в автосервис с панелью владельца. Без внешних зависимостей.",
+  "private": true,
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "set-password": "node scripts/set-password.js",
+    "test": "node scripts/smoke-test.js"
+  }
+}

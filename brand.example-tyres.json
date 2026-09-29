@@ -1,0 +1,22 @@
+{
+  "name": "Шина-Экспресс",
+  "tagline": "Шиномонтаж и сезонное хранение",
+  "phone": "+7 900 111-22-33",
+  "address": "г. Казань, ул. Складская, 3",
+  "primaryColor": "#ff5a36",
+  "darkColor": "#1d1f2b",
+  "currency": "₽",
+  "timezone": "Europe/Moscow",
+  "workStart": "08:00",
+  "workEnd": "20:00",
+  "slotMinutes": 30,
+  "posts": 3,
+  "workDays": [0, 1, 2, 3, 4, 5, 6],
+  "daysAhead": 14,
+  "leadMinutes": 30,
+  "services": [
+    { "name": "Шиномонтаж R13–R16", "description": "Комплект из 4 колёс: снятие, монтаж, балансировка.", "price": 2000, "priceFrom": false, "duration": 60 },
+    { "name": "Шиномонтаж R17 и выше", "description": "Комплект из 4 колёс, включая низкопрофильную резину.", "price": 3200, "priceFrom": true, "duration": 60 },
+    { "name": "Сезонное хранение", "description": "Хранение комплекта шин или колёс на складе.", "price": 2500, "priceFrom": false, "duration": 15 }
+  ]
+}

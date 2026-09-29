@@ -1,0 +1,27 @@
+{
+  "name": "Гараж 24",
+  "tagline": "Ремонт и обслуживание легковых автомобилей",
+  "phone": "+7 900 000-00-00",
+  "address": "г. Москва, ул. Промышленная, 12",
+  "primaryColor": "#ffc400",
+  "darkColor": "#0f2a33",
+  "currency": "₽",
+  "timezone": "Europe/Moscow",
+  "workStart": "09:00",
+  "workEnd": "19:00",
+  "slotMinutes": 60,
+  "posts": 2,
+  "workDays": [1, 2, 3, 4, 5, 6],
+  "daysAhead": 21,
+  "leadMinutes": 60,
+  "services": [
+    { "name": "Замена масла и фильтров", "description": "Масло, масляный и воздушный фильтры. Проверка уровней жидкостей.", "price": 1500, "priceFrom": true, "duration": 40 },
+    { "name": "Компьютерная диагностика", "description": "Считывание ошибок всех блоков, проверка датчиков, устный отчёт.", "price": 1200, "priceFrom": false, "duration": 30 },
+    { "name": "Шиномонтаж, 4 колеса", "description": "Снятие, демонтаж, монтаж, балансировка и установка колёс.", "price": 2400, "priceFrom": true, "duration": 60 },
+    { "name": "Замена тормозных колодок", "description": "Колодки на одной оси, осмотр дисков и суппортов.", "price": 1800, "priceFrom": true, "duration": 60 },
+    { "name": "Диагностика ходовой", "description": "Осмотр подвески, рулевых тяг, сайлентблоков и ступиц на подъёмнике.", "price": 900, "priceFrom": false, "duration": 30 },
+    { "name": "Развал-схождение", "description": "Регулировка углов установки колёс на 3D-стенде.", "price": 2500, "priceFrom": false, "duration": 60 },
+    { "name": "Заправка кондиционера", "description": "Проверка герметичности, вакуумирование, заправка фреоном.", "price": 2800, "priceFrom": false, "duration": 60 },
+    { "name": "Плановое ТО", "description": "Обслуживание по регламенту производителя, список работ согласуем заранее.", "price": 4500, "priceFrom": true, "duration": 120 }
+  ]
+}
